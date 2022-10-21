@@ -38,7 +38,7 @@ class Solution {
                 }
                 l++;
             }
-            dir=(dir+1)%4;
+            dir=(dir+1)%4; //to move in other direction
         }
         reverse(spiral.begin(),spiral.end());
         return spiral;
